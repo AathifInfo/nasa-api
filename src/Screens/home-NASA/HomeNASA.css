@@ -1,0 +1,128 @@
+/* HomeNASA.css */
+
+/* Hero Section */
+.hero-section {
+    background-image: url('../../images/nasaImage1.jpg'); /* Replace with your own image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.6); /* Overlay background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* NASA Mars Mission Tours */
+  .mars-tours {
+    margin: 50px 0;
+    padding: 30px;
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+  }
+  
+  .mars-tours img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn-secondary {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* NASA Insight Section */
+  .insight-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .insight-item {
+    position: relative;
+    width: 45%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .insight-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .overlay-text a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .insight-item:hover .overlay-text {
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  /* Why Mars Section */
+  .why-mars {
+    margin: 50px 0;
+    padding: 20px;
+    text-align: center;
+    background: #2e2e2e;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a1a;
+    color: white;
+  }
+  

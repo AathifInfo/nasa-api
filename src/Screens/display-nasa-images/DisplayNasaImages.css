@@ -1,0 +1,82 @@
+/* AlternatingImageCard.css */
+.alternating-cards-container {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px;  */
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .alternating-card {
+    display: flex;
+    flex-direction: row;
+    background: #111; /* Dark background for contrast */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add depth */
+    width: 90%;
+    max-width: 1000px; /* Adjust width based on your design */
+    transition: transform 0.3s ease;
+  }
+  
+  .alternating-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .image-side {
+    flex: 1; /* Take half of the space */
+    overflow: hidden;
+  }
+  
+  .alternating-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+  }
+  
+  .content-side {
+    flex: 1; /* Take the other half */
+    padding: 30px;
+    color: #fff; /* White text for contrast */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold color for the category */
+  }
+  
+  .content-side h2 {
+    font-size: 1.8rem;
+    margin: 0 0 10px 0;
+  }
+  
+  .content-side p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #ccc; /* Softer text color for the description */
+  }
+  
+  .cta {
+    text-decoration: none;
+    color: #ffd700; /* Gold color for the CTA */
+    font-weight: bold;
+    margin-top: auto; /* Pushes CTA to the bottom */
+    padding: 10px 20px;
+    border: 2px solid #ffd700;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta:hover {
+    background-color: #ffd700;
+    color: #111;
+  }
+  

@@ -1,0 +1,48 @@
+/* NewNavbar.css */
+.new-navbar {
+    background-color: #111; /* Dark background matching your provided page */
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add subtle shadow */
+  }
+  
+  .satellite {
+    width: 35px;
+    height: 35px;
+    background: url('https://example.com/satellite.png') no-repeat center center;
+    background-size: cover; /* Ensure the image fills the element */
+    animation: orbit 20s linear infinite;
+  }
+  
+  @keyframes orbit {
+    0% { transform: rotate(0deg) translateX(20px); }
+    100% { transform: rotate(360deg) translateX(20px); }
+  }
+  
+  .brand-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff; /* White text to contrast with the dark background */
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .nav-links .nav-link {
+    font-size: 1.2rem;
+    color: #bbb; /* Light color for nav links */
+    padding: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-links .nav-link:hover {
+    color: #0d6efd; /* Blue color on hover */
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  
+  .navbar-toggler-icon.open {
+    font-size: 1.5rem;
+    color: #fff; /* White color for the icon when toggled */
+    cursor: pointer;
+  }
+  
