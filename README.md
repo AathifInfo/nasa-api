@@ -6,7 +6,8 @@
 This project focuses on developing a modern and interactive React frontend application that integrates with NASA’s public APIs. It aims to creatively utilize data for providing insightful astronomy information while showcasing skills in frontend development, API integration, and deployment.
 
 ## Host Deployment Link
-Acces Website Using Given Link: https://AathifInfo.github.io/nasa-api
+Access the live website using the following link:  
+[NASA API Application](https://AathifInfo.github.io/nasa-api)
 
 ## Technologies and Tools Used
 - *Frontend*: React.js with functional components
